@@ -14,18 +14,26 @@ function createCard(nombre, nombreJapones, tipo, descripcion, imagen) {
         borderRadius: "20px",
         background: "linear-gradient(132deg, #FF9800 17%, #faadff99 51%, #ffecd2 94%)",
         border: "1px solid white"
-    })
+    });
+    liCharacter.onmouseenter = () =>{
+        liCharacter.style.border = "2px solid #4d3630";
+        liCharacter.style.cursor = "pointer";
+    } 
+    liCharacter.onmouseleave = () =>{
+        liCharacter.style.border = "1px solid white";
+        liCharacter.style.cursor = "default";
+    } 
     liCharacter.className = "character__item";
     liCharacter.innerHTML = `
         <figure style="width:200px">
-            <img src="${imagen}" alt="nombre" style="width: 100%">
+            <img src="${imagen}" alt="nombre" style="width: 100%; border-radius: 100px; filter: drop-shadow(2px 4px 3px black);">
         </figure>
-        <article style="background: linear-gradient(132deg, rgb(255 236 210 / 41%) 17%, rgb(250 173 255 / 22%) 51%, rgb(255 152 0 / 27%) 94%); padding: 15px; border-radius: 5px; border: 1px solid white">
+        <article style="padding: 15px; display: flex; flex-direction: column; gap: 13px;">
             <h2 style="text-align:center; color:#4d3630">${nombreJapones} <br><br> ${nombre}</h2>
             <h3 style="width:100%; color:#4d3630">Tipo</h3>
-            <p style="width:100%; color:#4d3630">${tipo}</p>
+            <p style="width:100%; color:#4d3630; font-family:monospace; font-size:1rem">${tipo}</p>
             <h3 style="width:100%; color:#4d3630">Descripcion</h3>
-            <p style="width:100%; color:#4d3630">${descripcion}</p>
+            <p style="width:100%; color:#4d3630; font-family:monospace; font-size:1rem">${descripcion}</p>
         </article>
     `;
 

@@ -8,6 +8,9 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
     background-image: linear-gradient(132deg, #ffecd2 0%, #FF9800 100%);
 }
 
@@ -15,18 +18,20 @@ header{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    height: 50vh;
+    margin-top: 20px;
+    /* height: 50vh; */
 }
 
 header div{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 4px;
 }
 
 header figure{
     filter: drop-shadow(2px 4px 0px #ff9800);
-    width: 40%;
+    width: 134px;
 }
 
 header figure img{
@@ -50,8 +55,15 @@ header nav button{
     font-weight: 600;
     border-radius: 30px;
     /* border: 1px solid #ffffff; */
-    border: none;
+    border: 3px solid #ffffff;
     background-image: linear-gradient(132deg, #FF9800 0%, #ffecd2 100%);
+    cursor: pointer;
+}
+
+header nav button:hover{
+    border: 3px solid #fe9f27;
+    background: #4d3630;
+    color: #ffe7c5;
 }
 
 header nav i{
@@ -72,4 +84,50 @@ main ul{
     /* justify-content: center; */
     align-items: center;
     gap: 50px;
+}
+
+@media screen and (min-width: 768px){
+
+    header div{
+        gap: 31px;
+    }
+
+    header figure {
+        width: 165px;
+    }
+
+    main ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: unset;
+        align-items: unset;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    main ul li{
+        width: 327px !important;
+    }
+
+    main ul li figure{
+        width: 160px !important;
+    }
+
+    main ul li p{
+        font-size: 0.9rem !important;
+    }
+}
+
+@media screen and (min-width: 1440px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main ul{
+        width: 80%;
+    }
 }
