@@ -65,3 +65,11 @@ h1{
     color: #4d3630;
     text-shadow: 1px 2px 0px white;
 }
+
+main ul{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 50px;
+}
