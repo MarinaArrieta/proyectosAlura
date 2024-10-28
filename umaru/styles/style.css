@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
 *{
     margin: 0;
@@ -41,6 +41,7 @@ header figure img{
 header nav{
     display:flex;
     justify-content: center;
+    gap: 16px;
 }
 
 header nav a{
@@ -61,16 +62,16 @@ header nav a:hover{
     color: #ffe7c5;
 }
 
-header nav i{
+/* header nav i{
     font-size: 1.1rem;
     color: #4d3630;
-}
+} */
 
 h1{
     font-size: 3rem;
     font-family: "DynaPuff", system-ui;
     color: #4d3630;
-    text-shadow: 1px 2px 0px white;
+    color: #4d3630;
 }
 
 main ul{

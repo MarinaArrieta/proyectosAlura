@@ -76,6 +76,13 @@
       "nombre": "Yuki",
       "tipo": "Amiga de Umaru",
       "descripcion": "lorem"
+    },
+    {
+      "id": "d008",
+      "imagen": "https://i.postimg.cc/6qnTQVmL/cf48c7459b32ed8f9d6b8d78c6b42738.jpg",
+      "nombre": "Haru",
+      "tipo": "Amiga de Umaru",
+      "descripcion": "BLa bla bla"
     }
   ]
 }
