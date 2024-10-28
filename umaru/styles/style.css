@@ -73,7 +73,11 @@ header nav{
 }
 
 header nav a{
-    padding: 1px 11px;
+    width: 38px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #4d3630;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
@@ -90,10 +94,14 @@ header nav a:hover{
     color: #ffe7c5;
 }
 
-/* header nav i{
-    font-size: 1.1rem;
+header nav i{
+    font-size: 1.5rem;
     color: #4d3630;
-} */
+}
+
+header nav i:hover{
+    color: #ffe7c5;
+}
 
 h1{
     font-size: 3rem;
