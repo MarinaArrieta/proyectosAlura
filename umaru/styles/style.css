@@ -19,7 +19,6 @@ header{
     flex-direction: column;
     gap: 20px;
     margin-top: 20px;
-    /* height: 50vh; */
 }
 
 header div{
@@ -44,23 +43,19 @@ header nav{
     justify-content: center;
 }
 
-header nav button{
-    /* width: 57px;
-    height: 40px; */
-    /* width: 135px;
-    height: 28px; */
+header nav a{
     padding: 1px 11px;
     color: #4d3630;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     border-radius: 30px;
-    /* border: 1px solid #ffffff; */
     border: 3px solid #ffffff;
     background-image: linear-gradient(132deg, #FF9800 0%, #ffecd2 100%);
     cursor: pointer;
+    text-decoration: none;
 }
 
-header nav button:hover{
+header nav a:hover{
     border: 3px solid #fe9f27;
     background: #4d3630;
     color: #ffe7c5;
@@ -128,10 +123,6 @@ footer i{
     main ul li{
         width: 327px !important;
     }
-
-    /* main ul li figure{
-        width: 160px !important;
-    } */
 
     main ul li p{
         font-size: 0.9rem !important;

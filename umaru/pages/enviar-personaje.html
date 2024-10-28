@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umaru Chan</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <figure>
+                <img src="../images/umaru1.png" alt="Umaru">
+            </figure>
+            <h1>Umaru</h1>
+        </div>
+        <nav>
+            <a href="pages/enviar-personaje.html">REGISTRAR PERSONAJE</a>
+        </nav>
+    </header>
+    <main class="container">
+        <form class="container__formulario" data-formulario>
+            <h2 class="formulario__titulo">¡Envía un vídeo!</h3>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="url">Link del video</label>
+                    <input name="url" class="campo__escrita" required
+                        placeholder="Por ejemplo: https://www.youtube.com/embed/QjOWz9avkg8" id='url' data-url/>
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="titulo">Título del vídeo</label>
+                    <input name="titulo" class="campo__escrita" required placeholder="En este campo, pon el nombre del vídeo"
+                        id='titulo' data-titulo/>
+                </div>
+                <div class="formulario__campo">
+                    <label class="campo__etiqueta" for="imagem">Imagen de perfil</label>
+                    <input name="imagem" class="campo__escrita" required placeholder="Inserta la URL de la imagen"
+                        id='imagem' data-imagen/>
+                </div>
+                <input class="formulario__boton" type="submit" />
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Marina Arrieta</p>
+        <a href="https://www.linkedin.com/in/marina-arrieta/">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </footer>
+
+    <script src="../js/crearVideo.js" type="module"></script>
+</body>
+</html>
