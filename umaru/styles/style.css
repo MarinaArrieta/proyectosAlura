@@ -81,9 +81,29 @@ h1{
 main ul{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     gap: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    background: #4d3630;
+}
+
+footer, p, i{
+    color: #ffe8c7;
+}
+
+footer p{
+    font-family: monospace;
+}
+
+footer i{
+    font-size: 1.5rem;
 }
 
 @media screen and (min-width: 768px){
@@ -109,9 +129,9 @@ main ul{
         width: 327px !important;
     }
 
-    main ul li figure{
+    /* main ul li figure{
         width: 160px !important;
-    }
+    } */
 
     main ul li p{
         font-size: 0.9rem !important;

@@ -14,7 +14,7 @@
         "nombreJapones": "土間 大平",
         "tipo": "Protagonista",
         "descripcion": "Es el hermano mayor de Umaru, es más responsable que su hermana, además de poseer un trabajo en administración, donde trabaja con dos amigos de la infancia. Siente pánico al momento de conducir un auto real debido a que no es igual a los exámenes de manejo, en los cuales sacó la mejor calificación. Es extremadamente amable, a tal punto de invitar a todo el mundo a su casa.",
-        "imagen": "./images/umaru.jpg"
+        "imagen": "./images/taihei.jpg"
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
         "nombreJapones": "海老名 菜々",
         "tipo": "Amiga de Umaru",
         "descripcion": "La mejor amiga de Umaru y residente en los mismos departamentos que en donde vive Umaru y su hermano. Es bastante tímida y fácilmente se sonroja o se pone nerviosa. Es proveniente de Akita y de vez en cuando se le escapa su tonada de origen, de un estilo más campesino. Está enamorada de Taihei debido a que tras su viaje de Akita a Tokio fue la primera persona en mirarla a los ojos (ya que gran parte de la gente miraba directamente a sus grandes pechos) y tratarla amablemente, a tal punto de casi no poder hablar delante de él. Le fascina comer en exceso (sobre todo postres), lo que causa a veces que se avergüence y hable con su tonada campesina.",
-        "imagen": "./images/umaru.jpg"
+        "imagen": "./images/ebina.jpg"
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@
         "nombreJapones": "橘・シルフィンフォード",
         "tipo": "Amiga de Umaru",
         "descripcion": "Una chica linda y adinerada que ha demostrado ser muy inteligente. Tiene una personalidad muy alegre y competitiva. Ella misma se ha declarado rival de Umaru, por lo cual siempre compite contra ella en casi todo, y le gusta llamar la atención, principalmente cuando Umaru está presente. Le gustan los videojuegos y el anime al igual que a su hermano mayor, sin embargo ella los evita cuando su hermano está cerca debido a que siente vergüenza y cree que su hermano la vería con malos ojos. Desconoce que su idola 'UMR' es en realidad Umaru en su faceta gamer. De vez en cuando suele hacer poses de idol con una voz de fondo que grita 'Shbaaaa!!'",
-        "imagen": "./images/umaru.jpg"
+        "imagen": "./images/tachibana.jpg"
     },
     {
         "id": 5,
@@ -38,7 +38,7 @@
         "nombreJapones": "本場 切絵",
         "tipo": "Amiga de Umaru",
         "descripcion": "Una chica con un aura oscura y que ha provocado miedo a más de una persona con su mirada, aunque en el fondo es una chica tímida y con dificultades para socializar (Tsundere). Ama en secreto a Umaru a pesar de no tener mucho valor para hablar con ella. Tras casi descubrir el secreto de Umaru, ella confunde su apariencia 'chibi' como la hermana menor de Umaru, la cual pasa a llamar Komaru, y le pide que sea su maestra.También no le cae muy bien Ebina ya que quiere a Umaru para ella.",
-        "imagen": "./images/umaru.jpg"
+        "imagen": "./images/kirie.jpg"
     },
     {
         "id": 6,
@@ -46,7 +46,7 @@
         "nombreJapones": "金剛 叶",
         "tipo": "Amiga de Umaru",
         "descripcion": "Una estudiante superior del Programa de Jóvenes Dotados en la escuela preparatoria de Umaru. Ella usa un pin del logotipo de la compañía de diamantes donde trabaja Taihei, y luego se revela que es la hermana pequeña de Kanau. Se insinúa que ella ha interactuado con Taihei antes, ya que conoce el conjunto de constelaciones que intentó mostrar a Umaru. Ella se refiere a Taihei como un hermano mayor, compitiendo con la mismísima Umaru, siendo la única que conoce todas sus facetas.",
-        "imagen": "./images/umaru.jpg"
+        "imagen": "./images/hikari.jpg"
     },
     {
         "id": 7,
@@ -54,7 +54,7 @@
         "nombreJapones": "本場 猛",
         "tipo": "Amigo de Taihei",
         "descripcion": "Es el hermano mayor de Kirie y compañero de trabajo y de escuela de Taihei. Su característica principal es la de tener un peinado afro muy distinguido, además de ser a veces muy quejumbroso pero es muy alegre a la vez. Su apodo es Bomber y es amigo de la infancia de Taihei. Sufre seguido los ataques violentos de Kirie, pero con menos frecuencia desde que ella es amiga de Umaru",
-        "imagen": "./images/umaru.jpg"
+        "imagen": "./images/takeshi.jpg"
     },
     {
         "id": 8,
@@ -62,7 +62,7 @@
         "nombreJapones": "橘・アレックス",
         "tipo": "Amigo de Taihei",
         "descripcion": "Es el hermano mayor de Sylphynford y kohai de Taihei. Mantiene una actitud más tranquila y callada, además de ser un otaku al igual que su hermana. Suele hacer poses parecidas a las que hace Sylphyn.",
-        "imagen": "./images/umaru.jpg"
+        "imagen": "./images/alex.jpg"
     },
     {
         "id": 9,
@@ -70,7 +70,7 @@
         "nombreJapones": "金剛 叶",
         "tipo": "Amigo de Taihei",
         "descripcion": "Es la jefa de trabajo de Taihei, Takeshi y Alex a su vez que fue compañera de escuela de los dos primeros mencionados. No soporta por mucho tiempo a Takeshi, pero ha demostrado estar enamorada de Tahei desde la escuela hasta la actualidad en su trabajo, insinuándosele a cada rato.",
-        "imagen": "./images/umaru.jpg"
+        "imagen": "./images/kanau.jpg"
     }
     ]
 }

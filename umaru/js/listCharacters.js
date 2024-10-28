@@ -25,8 +25,8 @@ function createCard(nombre, nombreJapones, tipo, descripcion, imagen) {
     } 
     liCharacter.className = "character__item";
     liCharacter.innerHTML = `
-        <figure style="width:200px">
-            <img src="${imagen}" alt="nombre" style="width: 100%; border-radius: 100px; filter: drop-shadow(2px 4px 3px black);">
+        <figure style="width: 147px; height: 140px; border-radius: 70px; overflow: hidden; filter: drop-shadow(2px 4px 3px black);">
+            <img src="${imagen}" alt="nombre" style="width: 100%; height: 100%">
         </figure>
         <article style="padding: 15px; display: flex; flex-direction: column; gap: 13px;">
             <h2 style="text-align:center; color:#4d3630">${nombreJapones} <br><br> ${nombre}</h2>
