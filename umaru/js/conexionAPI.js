@@ -5,16 +5,15 @@ async function umaruChan() {
     return conexionConvertida;
 }
 
-async function crearCharacters(nombre,nombreJapones,tipo,descripcion,imagen){
+async function crearCharacters(nombre,tipo,descripcion,imagen){
     const conexion = await fetch("http://localhost:3001/umaru",{
         method:"POST",
         headers:{"Content-type":"aplication/json"},
         body:JSON.stringify({
+            imagen:imagen,
             nombre:nombre,
-            nombreJapones:nombreJapones,
             tipo:tipo,
             descripcion:descripcion,
-            imagen:imagen
         })
     })
     const conexionConvertida=conexion.json();
