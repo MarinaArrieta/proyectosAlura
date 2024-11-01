@@ -110,6 +110,7 @@ header nav div{
     background-image: linear-gradient(132deg, #FF9800 0%, #ffecd2 100%);
     padding: 5px;
     border-radius: 5px;
+    border: 1px solid white;
 }
 
 header nav div i{
@@ -120,11 +121,24 @@ header nav div input{
     height: 26px;
     border: 2px solid #ff9800;
     border-radius: 5px;
+    width: 112px;
 }
 
 header nav div input:focus-visible{
     box-sizing: border-box;
     outline: auto 1px #855001;
+}
+
+header nav div button{
+    color: #ffffff;
+    background: #4d3630;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+header nav div button:hover{
+    background: #ff9800;
+    color: #4d3630;
 }
 
 h1{
