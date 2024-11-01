@@ -13,6 +13,11 @@ async function filtrarPersonaje(evento){
         listCharacters.removeChild(listCharacters.firstChild);
     }
     busqueda.forEach(character => listCharacters.appendChild(createCard(character.nombre, character.tipo, character.descripcion, character.imagen)));
+
+    if(busqueda.length === 0){
+        listCharacters.innerHTML = `<h2 style="height:47vh; display:flex; align-items: center;font-size: 1.5rem; font-family: 'Roboto', sans-serif; text-align: center; color: #4d3630">No fueron encontrados elementos para ${datosDeBusqueda} 😕</h2>`;
+    }
+
 }
 
 const boton = document.querySelector("[data-boton-busqueda]");

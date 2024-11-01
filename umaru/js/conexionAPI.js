@@ -2,7 +2,7 @@ async function umaruChan() {
     const conexion = await fetch("http://localhost:3001/umaru");
     const conexionConvertida = conexion.json();
 
-    return conexionConvertida;umaru
+    return conexionConvertida;
 }
 
 async function crearCharacters(nombre,tipo,descripcion,imagen){
@@ -17,6 +17,11 @@ async function crearCharacters(nombre,tipo,descripcion,imagen){
         })
     })
     const conexionConvertida=conexion.json();
+
+    if(!conexion.ok){
+        throw new Error("Ha ocurrido un error al registrar el personaje 😕");
+    }
+
     return conexionConvertida;
 }
 

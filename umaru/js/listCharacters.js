@@ -41,11 +41,15 @@ export default function createCard(nombre, tipo, descripcion,imagen) {
 }
 
 async function characters() {
-    const listAPI = await conexionAPI.umaruChan();
+    try {
+        const listAPI = await conexionAPI.umaruChan();
 
-    listAPI.forEach(character => {
-        listCharacters.appendChild(createCard(character.nombre, character.tipo, character.descripcion, character.imagen));
-    });
+        listAPI.forEach(character => 
+            listCharacters.appendChild(createCard(character.nombre, character.tipo, character.descripcion, character.imagen)))
+    }
+    catch{
+        listCharacters.innerHTML = `<h2 style="height:47vh; display:flex; align-items: center;font-size: 1.5rem; font-family: 'Roboto', sans-serif; text-align: center; color: #4d3630">Ha ocurrrido un problema con la conexion 😕</h2>`;
+    }
 }
 
 characters();
