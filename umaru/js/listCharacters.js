@@ -2,7 +2,7 @@ import { conexionAPI } from "./conexionAPI.js";
 
 const listCharacters = document.querySelector("[data-lista]");
 
-function createCard(nombre, tipo, descripcion,imagen) {
+export default function createCard(nombre, tipo, descripcion,imagen) {
     const liCharacter = document.createElement("li");
     Object.assign(liCharacter.style, {
         width: "80%",

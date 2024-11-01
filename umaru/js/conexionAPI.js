@@ -2,7 +2,7 @@ async function umaruChan() {
     const conexion = await fetch("http://localhost:3001/umaru");
     const conexionConvertida = conexion.json();
 
-    return conexionConvertida;
+    return conexionConvertida;umaru
 }
 
 async function crearCharacters(nombre,tipo,descripcion,imagen){
@@ -20,8 +20,14 @@ async function crearCharacters(nombre,tipo,descripcion,imagen){
     return conexionConvertida;
 }
 
-
+async function buscarPersonajes(palabraClave) {
+    let url = `http://localhost:3001/umaru?q=${palabraClave}`
+    const conexion= await fetch(url);
+    console.log(url)
+    const conexionConvertida = conexion.json();
+    return conexionConvertida;
+}
 
 export const conexionAPI={
-    umaruChan,crearCharacters
+    umaruChan, crearCharacters, buscarPersonajes
 }
