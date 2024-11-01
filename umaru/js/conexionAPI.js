@@ -20,6 +20,8 @@ async function crearCharacters(nombre,tipo,descripcion,imagen){
     return conexionConvertida;
 }
 
+
+
 export const conexionAPI={
     umaruChan,crearCharacters
 }

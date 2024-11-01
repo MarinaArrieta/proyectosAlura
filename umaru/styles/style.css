@@ -103,6 +103,30 @@ header nav i:hover{
     color: #ffe7c5;
 }
 
+header nav div{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background-image: linear-gradient(132deg, #FF9800 0%, #ffecd2 100%);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header nav div i{
+    font-size: 1.2rem;
+}
+
+header nav div input{
+    height: 26px;
+    border: 2px solid #ff9800;
+    border-radius: 5px;
+}
+
+header nav div input:focus-visible{
+    box-sizing: border-box;
+    outline: auto 1px #855001;
+}
+
 h1{
     font-size: 3rem;
     font-family: "DynaPuff", system-ui;
